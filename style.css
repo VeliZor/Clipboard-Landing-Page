@@ -104,15 +104,11 @@ p{
 }
 
 .baslik2{
-    /* display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
-    text-align: center; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5em;
-    margin: 50px;
+    margin: 50px -30px;
+    text-align: left;
 }
 
 .baslik4{
