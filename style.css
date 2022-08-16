@@ -3,162 +3,113 @@
     padding: 0;
     box-sizing: border-box;
     max-width: 1440px;
+    
+}
+
+body{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
 }
 
 header{
-    background-image: url(./images/bg-header-desktop.png);
+    
     display: flex;
-    justify-content: end;
     align-items: center;
     flex-direction: column;
-    height: 200px;    
+    height: 200px;
+    
     
 }
 
 #img1{
     width: 100px;
     height: 100px;
-         
+    margin-top: 100px;
 }
-
-/* main{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-} */
 
 .baslik1, .baslik3, .baslik6{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     text-align: center;
-    margin: 50px;
-}
-
-.button{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    width: 420px;
-    margin: 50px;
-   
-}
-
-.button1{
-    background-color: hsl(171, 66%, 44%);
-    color: rgba(255, 255, 255, 1);
-    border-radius: 25px;
-    width: 200px;
-    height: 50px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-}
-
-.button1:hover{
-    box-shadow: 0px 1px 6px #808080;
-}
-
-.button2{
-    background-color: hsl(233, 100%, 69%);
-    color: rgba(255, 255, 255, 1);
-    border-radius: 25px;
-    width: 200px;
-    height: 50px;
-    outline: none;
-    border: none;
-    font-size: 18px;
-}
-
-.button2:hover{
-    box-shadow: 0px 1px 6px #808080;
+    font-family: 'Bai Jamjuree', sans-serif;
+    /* font-size: 18px; */
+    /* line-height: 3em; */
 }
 
 h1, h3, h4{
+    margin: 30px;
     color: hsl(210, 10%, 33%);
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
-h1 {
-    font-size: 48px;
-}
-
-h3 {
-    font-size: 32px;
-}
-
-h4{
-    font-size: 24px;
-}
-
 p{
-    color: hsl(201, 11%, 66%);
     margin: 30px;
+    color: hsl(201, 11%, 66%);
     font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.button1{
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: hsl(171, 66%, 44%, 1);
+    color: white;
+    border: none;
     font-size: 18px;
+    box-shadow: 1px 3px rgb(32, 151, 133);
+    margin: 30px 10px;
+}
+
+.button2{
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border: none;
+    font-size: 18px;
+    box-shadow: 1px 3px rgb(61, 72, 160);
+    margin: 30px 10px;
+   
 }
 
 .baslik2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5em;
-    margin: 50px -30px;
-    text-align: left;
+    display: flex;
+}
+
+.grid1{
+    margin-left: -50px;
+}
+
+.grid2{
+    padding-left: 50px;
 }
 
 .baslik4{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: initial;
+    display: flex;
     align-items: center;
     text-align: center;
-    margin: 50px;
-
+    
 }
 
 .baslik5{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: initial;
-    align-items: center;
-    text-align: center;
-    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 footer{
+    background-color: rgba(221, 219, 219, 0.2);
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
-    height: 100px; 
-    margin: 10px 50px;
+    align-items: center;
+    /* margin: 100px; */
+       
+
 }
 
 #img2{
-    width: 50px;
-    height: 50px;          
-}
-
-.footer1{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 50px 20px;
-    margin: 100px;
-}
-
-a {
-    color: hsl(201, 11%, 66%);
-    text-decoration: none;
-    margin: 5px;
-}
-a:hover{
-    color: hsl(171, 66%, 44%);
-    text-decoration: underline;
+    width: 30px;
+    height: 30px;
+    margin: 30px;
 }
